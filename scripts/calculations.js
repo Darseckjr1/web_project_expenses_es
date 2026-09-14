@@ -1,7 +1,15 @@
 let budgetValue = 0;
 let totalExpensesValue = 0;
 
-const expenseEntries = [];
+const expenseEntries = [
+  ["groceries", 33],
+  ["restaurants", 50],
+  ["transport", 12],
+  ["home", 70],
+  ["subscriptions", 14],
+  ["groceries", 28],
+  ["subscriptions", 12],
+];
 
 for (let i = 0; i < expenseEntries.length; i++) {
   totalExpensesValue += expenseEntries[i][1];
